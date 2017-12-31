@@ -31,3 +31,7 @@ string.capwords(s)
     - list is in sequences, list can be modified
     - tuple you can not modify, if you want to modify tuple, you have change to list then modify it
     - tuple have structure for example (42, 11) # page number, line number
+
+# List Comprehension:
+
+
