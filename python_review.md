@@ -15,6 +15,11 @@ fruit[3:]
 >>output: 'ana'
 ```
 
+```
+''.join(reversed('a string'))
+'gnirts a'
+```
+
 # Convert First word in the line to Capital Letter:
 ```
 "hello world".title()
