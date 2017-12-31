@@ -15,10 +15,6 @@ fruit[3:]
 >>output: 'ana'
 ```
 
-```
-''.join(reversed('a string'))
-'gnirts a'
-```
 
 # Convert First word in the line to Capital Letter:
 ```
@@ -36,6 +32,13 @@ string.capwords(s)
     - list is in sequences, list can be modified
     - tuple you can not modify, if you want to modify tuple, you have change to list then modify it
     - tuple have structure for example (42, 11) # page number, line number
+
+# String:
+```
+-Reverse string
+''.join(reversed('a string'))
+'gnirts a'
+```
 
 # List Comprehension:
 
