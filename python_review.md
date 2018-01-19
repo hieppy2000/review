@@ -41,7 +41,7 @@ string.capwords(s)
 ```
 
 # Count repeated char in the string:
-'''
+```
 s = "ACCGGGTTT"
 for char in s:
     count = s.count(char)
@@ -56,7 +56,7 @@ G 3
 T 3
 T 3
 T 3
-'''
+```
 
 
 # List:
