@@ -40,6 +40,23 @@ string.capwords(s)
 'gnirts a'
 ```
 
+# Count repeated char in the string:
+s = "ACCGGGTTT"
+for char in s:
+    count = s.count(char)
+    if count > 1:
+        print char, count
+output:
+C 2
+C 2
+G 3
+G 3
+G 3
+T 3
+T 3
+T 3
+
+
 # List:
 ```
 array=[0,10,20,40]
