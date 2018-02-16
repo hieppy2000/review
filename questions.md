@@ -30,3 +30,23 @@
     for output in outputs:
         print output.replace("[", "").replace("]", "")
   ```
+
+# Return duplicated count item in a list:
+```
+- Input:
+        l1 = ["a", "b", "c", "d", "a"]
+- Output:
+        a:2
+        b:1
+        c:1
+        d:1
+- Code:
+    #trim duplicate item:
+    trim_list_str = [] # ["a", "b", "c", "d"]
+    for item in l1:
+        if item not in trim_list_str:
+            trim_list_str.append(item)
+
+    for item in trim_list_str:
+        print item + ":%d" %l1.count(item)
+```
