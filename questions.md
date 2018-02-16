@@ -18,4 +18,15 @@
         01/Jul/1995:00:00.11 -0400,
         01/Jul/1995:00:00.12 -0400
         ]
+  - Codes:
+    lines = "\n".join(lines)
+
+    new_lines = re.findall("\[.*\]", lines, re.MULTILINE)
+
+    expected_line = ""
+
+    #Print only occurrence more than 1
+    outputs = list(set([x for x in new_lines if new_lines.count(x) > 1]))
+    for output in outputs:
+        print output.replace("[", "").replace("]", "")
   ```
